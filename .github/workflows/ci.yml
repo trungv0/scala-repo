@@ -19,5 +19,6 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
           cache: maven
+          check-latest: true
       - name: mvn package
         run: mvn package
